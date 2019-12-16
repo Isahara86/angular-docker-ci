@@ -279,7 +279,7 @@ export class EnvService {
 
 ## Conclusions: 
 From now your DevOps will be happy. Everything he have to be concerned it's Docker and right environment variables.
-You safe because no project rebuild during deployment and no DevOps intrusion into build process.
+You are safe - NO project rebuild during deployment and NO DevOps intrusion into build process.
 
 Related articles:
  1. https://medium.com/@tiangolo/angular-in-docker-with-nginx-supporting-environments-built-with-multi-stage-docker-builds-bb9f1724e984
