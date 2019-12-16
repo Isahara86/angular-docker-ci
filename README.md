@@ -50,7 +50,7 @@ So we have a lot of questions let's try to find the way to solve them step by st
  Test code during Docker image building - it will prevent to create image without pass all tests.
  
  **Step three**
- Adjust angular and docker to get environment variables when docker container starting - So we could use the same build for production and stage server.
+ Adjust angular and Docker to use Docker container environment inside angular - So we could use the same build for production and stage server.
  
 ## Angular CI code step by step
 
