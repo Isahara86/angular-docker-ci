@@ -9,6 +9,7 @@ When you work with angular there are several stages witch project should pass.
  5. Deploy to production server
  
 When you work with long time project it's obvious to use CI-server to build test and deploy your code.
+
 So I'm as a developer strive to:
  1. Run tests with every task
  2. Prevent deployment if tests failed
@@ -42,11 +43,13 @@ todays buils does not equal last week build just because
   
 So we have a lot of questions let's try to find the way to solve them step by step.
 
- Step one
+ **Step one**
  Build a project in Docker image. - it will help to encapsulate build process.
- Step two 
+ 
+ **Step two** 
  Test code during Docker image building - it will prevent to create image without pass all tests.
- Step three
+ 
+ **Step three**
  Adjust angular and docker to get environment variables when docker container starting - So we could use the same build for production and stage server.
  
 ## Angular CI code step by step
