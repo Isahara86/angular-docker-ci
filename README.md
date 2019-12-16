@@ -39,7 +39,7 @@ todays buils does not equal last week build just because
  This small difference could cause a bug difference - your last week's build IS NOT EQUAL today's build even if your code hasn't changed.
  
  "4." Encapsulate all my build stage to prevent DevOps break code building. 
-  I don't wont to expose all build and test details to DevOps. It's much easier to be independent from server environment when I need to change node.js version of some other stuff. 
+  I don't wont to expose all build and test details to DevOps. It's much easier to be independent from server environment when I need to change node.js version or some other stuff. 
   
   
 So we have a lot of questions let's try to find the way to solve them step by step.
