@@ -33,6 +33,7 @@ So I'm as a developer strive to:
 todays buils does not equal last week build just because
  
  last week `"@angular/animations": "~8.2.0",`  === `"@angular/animations": "8.2.1",`
+ 
  but today new version appears `"@angular/animations": "~8.2.0",`  === `"@angular/animations": "8.2.2",`
  
  This small difference could cause a bug difference - your last week's build IS NOT EQUAL today's build even if your code hasn't changed.
